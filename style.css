@@ -9,7 +9,7 @@
 body {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 7vh 60vh 45vh 40vh 40vh;
+  grid-template-rows: 7vh 60vh 45vh 40vh 50vh;
   font-family: Consolas, monaco, monospace;
   background-color: var(--color-bg);
 }
@@ -204,15 +204,43 @@ main {
   color: var(--color-text);
   background-color:var(--color-2);
   display: flex;
-  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+ 
   
   
 }
 #projects div:first-child{
   height:9vh ;
+  
 }
 
-
+#cardProjeto{
+  background-color: var(--color-1);
+  height: 30vh;
+  width: 400px;
+  border-radius: 5%;
+  padding: 1%;
+  
+}
+.imc{
+  width: 30px;
+}
+.imc2{
+  width: 25px;
+}
+.gitp{
+  height: 30px;
+  width: 130px;
+  margin-bottom: 20;
+  background-color: var(--color-2);
+  border: 2px solid #1A42B9;
+  border-radius: 12px;
+}
+.githubicon{
+  width: 30px
+}
 /*--------------------------------------------------------------------*/
 /*----------------------------btns-----------------------------*/
 #btnTheme {

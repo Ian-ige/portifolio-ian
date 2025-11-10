@@ -9,7 +9,7 @@
 body {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 7vh 60vh 45vh 60vh;
+  grid-template-rows: 7vh 60vh 45vh 40vh 40vh;
   font-family: Consolas, monaco, monospace;
   background-color: var(--color-bg);
 }
@@ -199,6 +199,20 @@ main {
   text-align:left;
   transition: all 0.3s ease;
 }
+#projects{
+  padding-top: 1%;
+  color: var(--color-text);
+  background-color:var(--color-2);
+  display: flex;
+  justify-content: center;
+  
+  
+}
+#projects div:first-child{
+  height:9vh ;
+}
+
+
 /*--------------------------------------------------------------------*/
 /*----------------------------btns-----------------------------*/
 #btnTheme {

@@ -231,12 +231,15 @@ main {
   width: 25px;
 }
 .gitp{
-  height: 30px;
-  width: 130px;
+  height: 35px;
+  width: 150px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
   margin-bottom: 20;
   background-color: var(--color-2);
   border: 2px solid #1A42B9;
-  border-radius: 12px;
+  border-radius: 500px;
 }
 .githubicon{
   width: 30px

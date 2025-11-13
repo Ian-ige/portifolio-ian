@@ -218,10 +218,16 @@ main {
 
 #cardProjeto{
   background-color: var(--color-1);
-  height: 30vh;
+  height: 25vh;
   width: 400px;
   border-radius: 5%;
-  padding: 1%;
+  padding: 1%; 
+  
+}
+#cardProjeto h1{
+  text-align: center;
+  height: 10vh;
+  
   
 }
 .imc{
